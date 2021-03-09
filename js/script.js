@@ -1,3 +1,12 @@
+/*
+
+const menuIcon = document.querySelector
+('.hamburger-menu');
+const navbar = document.querySelector('.navbar');
+
 menuIcon.addEventListener('click', () => {
-    navigator.classList.toggle('change');
+    navbar.classList.toggle('change');
 });
+
+*/
+
