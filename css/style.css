@@ -54,13 +54,15 @@ body {
     background-color: #262626;
     position: fixed;
     top: 0;
-    right: 0;
+    right: -300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
+.change {
+    right: 0;
+}
 
 .hamburger-menu {
     width: 35px;
