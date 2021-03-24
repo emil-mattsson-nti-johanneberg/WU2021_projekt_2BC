@@ -13,6 +13,38 @@ body {
     justify-content: center;
 }
 
+.nav {
+    margin: 15px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    border-bottom: white solid 1px;
+}
+
+.nav li {
+    display: inline;
+    padding:15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+#contact-info h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;   
+}
+
+#contact-info p {
+    display: flex;
+    justify-content: center;
+    margin: 25px
+}
 
 #Landing_background {
     width: 100%;
@@ -28,7 +60,6 @@ body {
     background-size:cover;
 }
 .container {
-    border: 1px red solid;
     width: 80%;
     height: 200vh;
     margin:auto;
@@ -75,10 +106,11 @@ body {
     background-color: #262626;
     position: fixed;
     top: 0;
-    right: 0px;
+    right: -300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: right .8s cubic-bezier(1, 0, 0, 1);
 }
 
 .change {
@@ -107,7 +139,7 @@ body {
 }
 
 .change .line-1 {
-    transform: rotateZ(-45deg) translate(-8px, 6px);
+    transform: rotateZ(-405deg) translate(-8px, 6px);
 }
 
 .change .line-2 {
@@ -115,7 +147,7 @@ body {
 }
 
 .change .line-3 {
-    transform: rotateZ(45deg) translate(-8px, -6px);
+    transform: rotateZ(405deg) translate(-8px, -6px);
 }
 
 .nav-lista {
