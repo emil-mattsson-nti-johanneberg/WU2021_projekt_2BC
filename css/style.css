@@ -8,44 +8,7 @@ body {
     line-height: 1.4;
 }
 
-.header p {
-    display: flex;
-    justify-content: center;
-}
-
-.nav {
-    margin-left: 70px;
-    margin-right: 70px;
-}
-
-.nav ul {
-    display: flex;
-    justify-content: center;
-    border-bottom: white solid 1px;
-}
-
-.nav li {
-    display: inline;
-    padding:15px;
-}
-
-.nav a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-}
-
-#contact-info h1 {
-    display: flex;
-    justify-content: center;
-    margin: 20px;   
-}
-
-#contact-info p {
-    display: flex;
-    justify-content: center;
-    margin: 25px
-}
+/* index.html */
 
 #Landing_background {
     width: 100%;
@@ -53,22 +16,6 @@ body {
     background: url(/img/snow_skog.jpg) center no-repeat;
     background-size:cover;
 }
-
-.background {
-    width: 100%;
-    height: 300vh;
-    background: url(/img/snow_background.jpg) center no-repeat;
-    background-size:cover;
-}
-.container {
-    width: 80%;
-    height: 300vh;
-    margin:auto;
-    background-color: #262626;
-    color: white;
-}
-
-/* Sociala medier */
 
 .socials {
     position: fixed;
@@ -113,10 +60,6 @@ body {
     transition: right .8s cubic-bezier(1, 0, 0, 1);
 }
 
-.change {
-    right: 0;
-}
-
 .hamburger-menu {
     width: 35px;
     height: 30px;
@@ -127,27 +70,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
-
-/* Hamburger icon */
-
-.line {
-    width: 100%;
-    height: 3px;
-    background-color: orange;
-    transition: all 0.8s;
-}
-
-.change .line-1 {
-    transform: rotateZ(-405deg) translate(-8px, 6px);
-}
-
-.change .line-2 {
-    opacity: 0;
-}
-
-.change .line-3 {
-    transform: rotateZ(405deg) translate(-8px, -6px);
 }
 
 .nav-lista {
@@ -171,12 +93,95 @@ body {
     color:orange;
 }
 
+/*-------------------*/
+
+
+/* Hamburger icon */
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: orange;
+    transition: all 0.8s;
+}
+
+.change .line-1 {
+    transform: rotateZ(-405deg) translate(-8px, 6px);
+}
+
+.change .line-2 {
+    opacity: 0;
+}
+
+.change .line-3 {
+    transform: rotateZ(405deg) translate(-8px, -6px);
+}
+
+.change {
+    right: 0;
+}
+/*----------------------*/
+
+/* contact.html */
+
+.background {
+    width: 100%;
+    height: 300vh;
+    background: url(/img/snow_background.jpg) center no-repeat;
+    background-size:cover;
+}
+.container {
+    width: 80%;
+    height: 300vh;
+    margin:auto;
+    background-color: #262626;
+    color: white;
+}
+
+.header p {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    border-bottom: white solid 1px;
+}
+
+.nav li {
+    display: inline;
+    padding:15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
 .showcase_photo {
     height: 125px;
     margin: 70px;
     background: url(/img/snow_background2.jpg) center no-repeat;;
 }
 
+#contact-info h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;   
+}
+
+#contact-info p {
+    display: flex;
+    justify-content: center;
+    margin: 25px
+}
 
 #forms {
     margin-left: 70px;
@@ -291,3 +296,41 @@ input[type=submit] {
 .footer_bottom p {
     font-size: 10px;
 }
+
+/*-------------------*/
+
+
+/* about.html */
+
+
+#about-text {
+    text-align: center;
+    margin:70px;
+    line-height: 25px;
+}
+
+#about-text h1 {
+    line-height: 60px;
+}
+
+@media screen and (max-width:768px){
+    .container {
+        width: 100%;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .nav {
+        display: none;
+    }
+}
+
+/*
+@media screen and (min-width:768px){
+    .navbar {
+        display: none;
+    }
+}
+*/
