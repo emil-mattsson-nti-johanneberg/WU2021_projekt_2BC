@@ -322,18 +322,18 @@ input[type=submit] {
         font-size: 10px;
     }
 
-    .nav {
-        display: none;
+    .nav-link {
+        font-size: 15px;
     }
-}
 
-/*
-@media screen and (min-width:768px){
-    .navbar {
-        display: none;
+    .newsletter {
+        height: 200px;
+    }
+
+    .container {
+        height: 350vh;
     }
 }
-*/
 
 
 /* Gallery */
@@ -466,7 +466,48 @@ input[type=submit] {
     .container{
         grid-template-columns: repeat(2,1fr);
     }
-
-    
 }
 /* ----------------------------*/ 
+
+
+/* buy.html */
+
+#shop-titles {
+    text-align: center;
+    line-height: 40px;
+    margin:20px;
+}
+
+.shop-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.5s;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.col-4:hover{
+    transform: translateY(-10px);
+}
+
+.col-4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+/*--------------------*/
