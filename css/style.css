@@ -40,7 +40,7 @@ body {
     justify-content: center;
 }
 
-.lol {
+.landing-text {
     text-align: center;
     margin:80px 270px 0px 270px;
     font-size: 25px;
@@ -487,7 +487,7 @@ input[type=submit] {
     margin-right: 70px;
 }
 
-.col-4 {
+.column {
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
@@ -500,11 +500,11 @@ input[type=submit] {
     cursor: pointer;
 }
 
-.col-4:hover{
+.column:hover{
     transform: translateY(-10px);
 }
 
-.col-4 img {
+.column img {
     display: block;
     margin-left: auto;
     margin-right: auto;
